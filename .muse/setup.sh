@@ -1,4 +1,5 @@
 #!/usr/bin/bash
 
 apt update
-apt install -y libprotobuf-c-dev protobuf-c-compiler
+apt install -y libssl-dev
+apt install -y libprotobuf-dev protobuf-compiler
